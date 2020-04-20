@@ -1,12 +1,14 @@
-.header{
-  
-}
 .nav-bar{
   display: flex;
 }
 .nav-bar>div{
   padding: 10px;
 }
+.something img{
+	width: 100%;
+	height: auto;
+}
+
 /*
 .tab{
   background: yellow;
@@ -14,6 +16,23 @@
 .tab.extra{
   background: blue;
 }*/
-#main-body{
-  display: flex;
+.intro{
+	background-color: white;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+/*	grid-template-columns: 1fr 1fr;
+*/
+	grid-gap: 4rem;
+	}
+.something{
+	background-color: white;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+.something-1{
+
+}	
+.something-2{
+
 }
